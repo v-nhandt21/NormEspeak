@@ -10,7 +10,7 @@ pip install vinorm
 Call function to convert Text to grapheme
 
 ```python
-from espeak import PhoneConverter
+from VinormEspeak import PhoneConverter
 phonemes = PhoneConverter("Vào tháng 12/2020 đã có vaccine phòng ngừa Covid-19")
 ```
 Output of Vinorm and NormEspeak
