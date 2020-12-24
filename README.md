@@ -20,3 +20,10 @@ vào tháng mười hai năm hai nghìn không trăm hai mươi đã có vaccine
 ```
 vaːʊ2 taːɜŋ myə2j haːɪ1 na1m haːɪ1 ŋi2n xo1 tʃa1m haːɪ1 myə1j ɗaː5 ɡɔɜ va1ksiː1n fɔ2 ŋyə2 kɒ1vɪ1d myə2j tɕiɜn  .
 ```
+
+Get list of grapheme
+
+```python
+from VinormEspeak import getPhoneme
+phonemeList = getPhoneme()
+```
