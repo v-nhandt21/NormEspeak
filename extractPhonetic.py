@@ -3,12 +3,12 @@ from string import punctuation
 import fileinput
 
 SETP = []
-vifile = "VIDATA.txt"
+vifile = "Data/VIDATA.txt"
 file = "train.en"
-enfile = "ENDATA.txt"
+enfile = "Data/ENDATA.txt"
 
 
-with open("Popular.txt", "r",encoding="utf-8") as f:
+with open("Data/Popular.txt", "r",encoding="utf-8") as f:
     lines = f.read().splitlines()
     for line in lines[:]:
         phonemes = PhonemeConverter(line)
